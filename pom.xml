@@ -3,4 +3,16 @@
   <groupId>org.java.calculator.tester</groupId>
   <artifactId>java-calculator-tester</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- questo è il sito in cui ci sono tutte le versioni e da dove si scarica il JDBC o altri strumenti tipo un tester -->
+  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+  <!-- questa è la versione scaricata -->
+  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+  <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.10.0</version>
+      <scope>test</scope>
+  </dependency>
+  
 </project>
